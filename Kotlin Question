@@ -1,0 +1,30 @@
+kotlin Question
+
+fun main() {
+    val number = 7
+
+    if (number % 2 == 0) {
+        println(-1)
+    } else {
+        val num = 4
+        for (i in 1..num ){
+            println("e")
+        }
+        val n = number / 2 + 1
+        for (i in 1..n) {
+            for (j in 1..n) {
+                print("* ")
+            }
+            println()
+        }
+
+        for (i in 1..n) {
+            for (j in 1..n) {
+                print("* ")
+            }
+            print("e e e e ")
+            break
+            println()
+        }
+    }
+}
